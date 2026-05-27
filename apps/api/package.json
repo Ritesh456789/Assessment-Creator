@@ -1,0 +1,30 @@
+{
+  "name": "@assess-ai/api",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "2.8.6",
+    "dotenv": "17.4.2",
+    "express": "5.2.1",
+    "ioredis": "5.10.1",
+    "bullmq": "5.77.1",
+    "mongoose": "9.6.2",
+    "pdfkit": "^0.18.0",
+    "ws": "8.21.0"
+  },
+  "devDependencies": {
+    "@types/cors": "2.8.19",
+    "@types/express": "5.0.6",
+    "@types/node": "25.9.1",
+    "tsc-alias": "^1.8.17",
+    "zod": "^4.4.3",
+    "tsx": "4.22.3",
+    "typescript": "6.0.3"
+  },
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json && tsc-alias -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  }
+}
