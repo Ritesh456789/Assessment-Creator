@@ -178,7 +178,7 @@ assess-ai/
 │           └── index.ts
 │
 ├── packages/
-│   └── shared/                     # Shared types, schemas, workflow logic
+│   └── core/                       # Shared types, schemas, workflow logic
 │       └── src/
 │           ├── schemas/
 │           │   ├── assessment.ts           # Assessment + Question types
@@ -530,8 +530,8 @@ AssessAI implements comprehensive input sanitization and validation to prevent X
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-org/assess-ai.git
-cd assess-ai
+git clone https://github.com/Ritesh456789/Assessment-Creator.git
+cd Assessment-Creator
 
 # 2. Install all workspace dependencies
 npm install
